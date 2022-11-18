@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Koh Santepheap', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.design{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 1555px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-bottom: 40px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    /* width: 100%;
+    max-width: 833px;
+    height: 100%;
+    max-height: 240px;
+    align-items: center; */
+}
+.main-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #1F2937;
+    width: 100%;
+    max-width: 1412px;
+    max-height: 24px;
+    height: 100%;
+}
+.grid-info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+    max-width: 509px;
+    height: 76px;
+}
+.grid-heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #1F2937;
+}
+.grid-input-button{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 12px; */
+}
+.grid-input-submit-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 12px;
+}
+.submit-reset-button{
+    display: flex;
+}
+/* #input{
+    padding: 16px;
+} */
+#input{
+    
+    border: 1px solid #D4D4D8;
+    border-radius: 6px;
+    padding: 16px;
+    width: 290px;
+    /* position: relative; */
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* width: 100%; */
+    /* max-width: 400px; */
+}
+.grid-button{
+    text-decoration: none;
+    background: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 4px;
+    padding: 16px 32px;
+    color: white;
+}
+.reset-button{
+    border: 1px solid #2563EB;
+    border-radius: 4px;
+    padding: 16px 32px;
+    /* display: flex;
+    align-items: flex-end; */
+    /* text-align: end; */
+    color: #2563EB;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+    max-width: 1535px;
+    max-height: 784px;
+}
+.grid-numbers{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.grid-prime-number{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.prime-written{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #525252;
+}
+.grid-even-number{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.even-written{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #525252;
+}
+.grid-odd-number{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.odd-written{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #525252;
+}
+/* .full-grid{
+    width: 1535px;
+    height: 744px;
+    background: #FFEDD5;
+    border: 1px solid #EA580C;
+    border-radius: 24px;
+    display: flex;
+    padding: 48px;
+    flex-wrap: wrap;
+    gap: 50px;
+} */
+.full-grid{
+    
+    /* grid-template-rows: repeat(4,1fr); */
+    
+    background: #FFEDD5;
+    border: 1px solid #EA580C;
+    padding: 48px;
+    border-radius: 24px;
+    height: 796px;
+    
+}
+.all-grids{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 32px;
+}
+.full-grid-p{
+    background: #22C55E;
+    border-radius: 16px;
+    width: 213px;
+    height: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full-grid-p-y{
+    background: #EAB308;
+    border-radius: 16px;
+    width: 213px;
+    height: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full-grid-p-b{
+    background: #3B82F6;
+    border-radius: 16px;
+    width: 213px;
+    height: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 30px; */
+}
+@media only screen and (max-width: 600px) {
+    #main-logo{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+    }
+    .prime-written{
+        width: 86px;
+    }
+    .even-written{
+        width: 86px;
+    }
+    .odd-written{
+        width: 86px;
+    }
+    .grid-numbers{
+        display: flex;
+        height: 100%;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .full-grid{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .full-grid-p{
+        width: 66px;
+        height: 64px;
+    }
+    .full-grid-p-y{
+        width: 66px;
+        height: 64px;
+    }
+    .full-grid-p-b{
+        width: 66px;
+        height: 64px;
+    }
+    .all-grids{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .submit-reset-button{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .design{
+        width: 390px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-heading{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        color: #1F2937;
+        width: 100%;
+        max-width: 1412px;
+        max-height: 24px;
+        height: 100%;
+        color: #1F2937;
+    }
+    .grid-info{    
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-input-submit-button{
+        display: flex;
+        flex-direction: column;
+    }
+    #input{
+        width: 325px;
+    }
+    .grid-input{
+        width: 358px;
+    }
+    .grid-button{
+        width: 358px;
+    }
+    .reset-button{
+        width: 358px;
+        display: flex;
+        justify-content: center;
+    }
+}

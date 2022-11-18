@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Detector via Color in Grid</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;  900family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+    </style>
+</head>
+<body>
+    <div class="design">
+        <div class="logo">
+            <img id="main-logo" src="img/image 1.png" alt="#">
+        </div>
+        <div class="main">
+            <p class="main-heading">Task: Num detector via color in grid</p>
+            <div class="grid-info">
+                <div>
+                    <p class="grid-heading">Enter number</p>
+                </div>
+                <div class="grid-input-button">
+                    <div class="grid-input-submit-button">
+                        <div class="grid-input">
+                            <input id="input" class="inputclass" type="text" placeholder="Enter number to generate grid">
+                        </div>
+                        <div class="submit-reset-button">
+                            <button class="grid-button" onclick="getInputValue();">Submit</button>
+                            <!-- <button class="reset-button">Reset</button> -->
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <div class="grid">
+                <div class="grid-numbers">
+                    <div class="grid-prime-number">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="8" cy="8" r="8" fill="#FBBF24"/>
+                        </svg>
+                        <p class="prime-written">Prime Number</p>
+                    </div>
+                    <div class="grid-even-number">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="8" cy="8" r="8" fill="#34D399"/>
+                        </svg>
+                        <p class="even-written">Even Number</p>
+                    </div>
+                    <div class="grid-odd-number">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="8" r="8" fill="#60A5FA"/>
+                        </svg>
+                        <p class="odd-written">Odd Number</p>
+                    </div>
+                </div>
+                <div class="full-grid">
+                    <div class="all-grids">
+                        <p class="full-grid-p">1</p>
+                        <p class="full-grid-p-y">2</p>
+                        <p class="full-grid-p-b">3</p>
+                        <p class="full-grid-p-b">4</p>
+                        <p class="full-grid-p-b">5</p>
+                        <p class="full-grid-p-y">6</p>
+                        <p class="full-grid-p">7</p>
+                        <p class="full-grid-p-y">8</p>
+                        <p class="full-grid-p">9</p>
+                        <p class="full-grid-p">10</p>
+                        <p class="full-grid-p-b">11</p>
+                        <p class="full-grid-p-y">12</p>
+                        <p class="full-grid-p">13</p>
+                        <p class="full-grid-p">14</p>
+                        <p class="full-grid-p-y">15</p>
+                        <p class="full-grid-p-y">16</p>
+                        <p class="full-grid-p-b">17</p>
+                        <p class="full-grid-p-y">18</p>
+                        <p class="full-grid-p">19</p>
+                        <p class="full-grid-p">20</p>
+                        <p class="full-grid-p">21</p>
+                        <p class="full-grid-p">22</p>
+                        <p class="full-grid-p-b">23</p>
+                        <p class="full-grid-p-y">24</p>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
